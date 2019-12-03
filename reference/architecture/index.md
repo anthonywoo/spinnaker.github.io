@@ -76,6 +76,7 @@ service.
  api(Custom Script/API Caller) --> gate(Gate);
  gate --> kayenta(Kayenta);
  gate --> orca(Orca);
+ gate --> igor(Igor);
  gate --> clouddriver(Clouddriver);
  orca --> clouddriver;
  gate --> rosco(Rosco);
